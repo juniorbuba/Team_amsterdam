@@ -1,0 +1,59 @@
+.drawers{
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    background: #8B0101;
+    top: 0px;
+    left: 0px;
+    z-index: 200;
+    box-shadow: 1px 0px 7px rgba(0, 0green, 0blue, 0.5);
+
+}
+
+ul{
+    list-style: none;
+    display:flex ;
+    flex-direction: column;
+    padding-top: 70px;
+}
+#top_winners{
+    
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+}
+.thead{
+    background-color: #8B0101;
+}
+
+.text{
+    font-weight: bolder;
+}
+
+#mid_row{
+    list-style: none;
+    display: flex;
+}
+
+#mid_links{
+    padding-top: 100px;
+}
+
+#people{
+    text-decoration: none;
+    border-bottom: 3px solid #8B0101;
+}
+#team{
+    padding-left: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+#today{
+    padding-right: 15px;
+}
+#sort{
+    padding-right: 35px;
+}

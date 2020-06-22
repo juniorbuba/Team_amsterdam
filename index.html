@@ -1,0 +1,217 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <!--local styles-->
+    <link href="mystyles.css" rel="stylesheet" type="text/css">
+
+    <title>LeaderBoard</title>
+</head>
+<body>
+    <nav class="nav-wrapper white">
+        <div class="container">
+        <div class="brand-logo left red-text accent-4"> LBOARD</div>
+        
+
+        <ul class="right">
+            <li><a href="#"> <i class="material-icons red-text accent-4">notification_important</i></a></li>
+            <li><a href="#"> <i class="material-icons red-text accent-4">perm_identity</i></a></li>
+        </ul>
+
+    </div>
+    </nav>
+    <!--------------------sidebar------------------->
+    <div class="drawers">
+      <ul class="white-text center">
+        
+        <i class="fa fa-tachometer" aria-hidden="true" style="font-size:48px;"></i>
+          <li>DashBoard</li><br>
+          <i class="material-icons" style="font-size:48px;">star_rate</i>
+          <li>LeaderBoard</li><br>
+          <i class="material-icons" style="font-size:48px;">date_range</i>
+          <li>Schedule</li><br>
+          <i class="material-icons" style="font-size:48px;">assignment</i>
+          <li>Report</li><br>
+          <i class="material-icons" style="font-size:48px;">settings</i>
+          <li>Settings</li><br>
+      </ul>
+    </div>
+<!-----------------top winners------------->
+    <div class="container"><h2 id="top_winners">Top Winners Of The Week</h2></div>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="girlpic.jpg"/>
+                        </div>
+                        <div class="card-content" id="text">
+                            <span class="card-title center">Jane doe</span>
+                            <span class="card-title center score">245</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="girlpic.jpg" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title center">Mike doe</span>
+                            <span class="card-title  center score">545</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="girlpic.jpg" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title center">Wes doe</span>
+                            <span class="card-title center score">345</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+<!---------------------------------------------------->
+    <section>
+        <div class="container">
+        <h5 class="left">LeaderBoard</h5>
+        <button class="btn right white red-text"><i class="fa fa-download" aria-hidden="true"></i>  Import from File</button>
+    </div>
+    </section>
+     <!----------------------------------------->
+      </div>
+    <section id="mid_links">
+        <div class="container">
+            <div>
+                <span > <a id="people" href="">People</a> </span>
+              <span id="team"> <a href="#">Team</a> </span>
+
+               
+                   <span class="right" id="today"> <a>Today</a> </span>
+                   <span class="right" id="sort"> <a>Sort</a> </span>
+    
+            </div>
+    </section><br><br>
+
+    <!------------table--------------->
+  <section class="container">
+    <table>
+        <thead class="thead">
+          <tr class="white-text">
+              <th>FullName</th>
+              <th>UserName</th>
+              <th>Email</th>
+              <th>Track</th>
+              <th>Point</th>
+              <th>Team</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Jane Doe</td>
+            <td>@janedoe</td>
+            <td>janedoe@gmail.com</td>
+            <td>Backend</td>
+            <td>342</td>
+            <td>Omega</td>
+
+          </tr>
+          <tr>
+            <td>Alan</td>
+            <td>@alansherra</td>
+            <td>alansherra@gmail.com</td>
+            <td>Backend</td>
+            <td>376</td>
+            <td>Omega</td>
+
+          </tr>
+          <tr>
+            <td>Jonathan Byers</td>
+            <td>@joebye</td>
+            <td>joebye@yahoo.com</td>
+            <td>Backend</td>
+            <td>$200</td>
+            <td>Omega</td>
+
+          </tr>
+          <tr>
+            <td>Jonathan Byers</td>
+            <td>@joebye</td>
+            <td>joebye@yahoo.com</td>
+            <td>Backend</td>
+            <td>$200</td>
+            <td>Omega</td>
+
+          </tr>
+          <tr>
+            <td>Jonathan Byers</td>
+            <td>@joebye</td>
+            <td>joebye@yahoo.com</td>
+            <td>Backend</td>
+            <td>$200</td>
+            <td>Omega</td>
+
+          </tr>
+          <tr>
+            <td>Jonathan Byers</td>
+            <td>@joebye</td>
+            <td>joebye@yahoo.com</td>
+            <td>Backend</td>
+            <td>$200</td>
+            <td>Omega</td>
+
+          </tr>
+          <tr>
+            <td>Jonathan Byers</td>
+            <td>@joebye</td>
+            <td>joebye@yahoo.com</td>
+            <td>Backend</td>
+            <td>$200</td>
+            <td>Omega</td>
+
+          </tr>
+          <tr>
+            <td>Jonathan Byers</td>
+            <td>@joebye</td>
+            <td>joebye@yahoo.com</td>
+            <td>Backend</td>
+            <td>$200</td>
+            <td>Omega</td>
+
+          </tr>
+        </tbody>
+      </table>
+     </section>
+      <!---------------footer-------------->
+      <footer>
+          <div class="container">
+        <div class="footer-copyright grey darken-1">
+            <div class="left-align black-text" id="techhub">Site Designed & Powered by <a href="https://silvertechhub.github.io">Team Amsterdam</a></div>
+            <div class="container right-align black-text">
+                &copy;Team Amsterdam for HNGi7 2020
+            </div>
+        </div> 
+    </div>
+      </footer>
+
+
+</body>
+</html>
