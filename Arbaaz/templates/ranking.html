@@ -1,0 +1,18 @@
+{% extends 'layout.html' %} {% block body %}
+<table class="table table-striped">
+    <tr class="bg-danger">
+        <th>Full Name</th>
+        <th>Slack Username</th>
+        <th>Email</th>
+        <th>Point</th>
+    </tr>
+    {% for score in scores %}
+    <tr>
+        <td>{{score[0]}}</td>
+        <td>{{score[1]}}</td>
+        <td>{{score[2]}}</td>
+        <td>{{score[3]}}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
