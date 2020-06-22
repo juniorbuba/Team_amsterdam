@@ -1,42 +1,49 @@
 {
+"one" :	{
 	"full-name": "Buba Mohammed",
 	"Slack Username": "@Mohammed",
 	"Track": "Backend",
 	"Email": "juniorbuba4real@gmail.com",
 	"points": 2
-},
-{
+	},
+
+"two" :{
 	"full-name": "Mohammed Shuaib",
 	"Slack Username": "@Shoo_shoo",
 	"Track": "Backend",
 	"Email": "shoo_shoo@gmail.com",
 	"points": 3
-},
-{
+	},
+
+"three":{
 	"full-name": "Alabi Markaz",
 	"Slack Username": "@Morkaz",
 	"Track": "Design",
 	"Email": "morkaz_alabi@yahoo.com",
 	"points": 1
-},
-{
+	},
+
+"four":{
 	"full-name": "Cookie Brown",
 	"Slack Username": "@cookie",
 	"Track": "Backend",
 	"Email": "cookie@gmail.com",
 	"points": 5
-},
-{
+	},
+
+"five":{
 	"full-name": "Eric Jon",
 	"Slack Username": "@eric",
 	"Track": "Backend",
 	"Email": "ericson@gmail.com",
 	"points": 6
-},
-{
+	},
+	
+"six":{
 	"full-name": "Jon Snow",
 	"Slack Username": "@jonSnow",
 	"Track": "Backend",
 	"Email": "juniorbuba4real@gmail.com",
 	"points": 2
+	}
 }
