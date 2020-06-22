@@ -1,0 +1,22 @@
+{
+  "name": "team_amsterdam",
+  "version": "1.0.0",
+  "description": "leaderboard task to move to stage 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juniorbuba/Team_amsterdam.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juniorbuba/Team_amsterdam/issues"
+  },
+  "homepage": "https://github.com/juniorbuba/Team_amsterdam#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
