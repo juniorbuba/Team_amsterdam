@@ -17,19 +17,21 @@
 <body>
     <nav class="nav-wrapper white">
         <div class="container">
-        <div class="brand-logo left red-text accent-4"> LBOARD</div>
+        <div class="brand-logo left red-text accent-4" id="brand-logo"> LEADERBOARD</div>
+       
         
 
         <ul class="right">
             <li><a href="#"> <i class="material-icons red-text accent-4">notification_important</i></a></li>
             <li><a href="#"> <i class="material-icons red-text accent-4">perm_identity</i></a></li>
+            
         </ul>
 
     </div>
     </nav>
     <!--------------------sidebar------------------->
     <div class="drawers">
-      <ul class="white-text center">
+      <ul class="white-text center" id="side_draw">
         
         <i class="fa fa-tachometer" aria-hidden="true" style="font-size:48px;"></i>
           <li>DashBoard</li><br>
@@ -50,7 +52,7 @@
             <div class="row">
                 <div class="col s12 l4">
                     <div class="card">
-                        <div class="card-image">
+                        <div class="card-image " id="image-holder">
                             <img src="girlpic.jpg"/>
                         </div>
                         <div class="card-content" id="text">
@@ -62,7 +64,7 @@
 
                 <div class="col s12 l4">
                     <div class="card">
-                        <div class="card-image">
+                        <div class="card-image " id="image-holder">
                             <img src="girlpic.jpg" />
                         </div>
                         <div class="card-content">
@@ -74,7 +76,7 @@
 
                 <div class="col s12 l4">
                     <div class="card">
-                        <div class="card-image">
+                        <div class="card-image " id="image-holder">
                             <img src="girlpic.jpg" />
                         </div>
                         <div class="card-content">
@@ -103,9 +105,10 @@
                 <span > <a id="people" href="">People</a> </span>
               <span id="team"> <a href="#">Team</a> </span>
 
-               
-                   <span class="right" id="today"> <a>Today</a> </span>
-                   <span class="right" id="sort"> <a>Sort</a> </span>
+
+                   <span class="right" id="sort"><i class="material-icons left red-text" style="font-size:25px;">import_export</i> <a class="sort">Sort</a> </span>
+                   <span class="right" id="today"> <i class="material-icons left red-text" style="font-size:25px;">date_range</i> <a>Today</a> </span>
+                  
     
             </div>
     </section><br><br>
@@ -201,10 +204,10 @@
       </table>
      </section>
       <!---------------footer-------------->
-      <footer>
+      <footer class="grey darken-1">
           <div class="container">
-        <div class="footer-copyright grey darken-1">
-            <div class="left-align black-text" id="techhub">Site Designed & Powered by <a href="https://silvertechhub.github.io">Team Amsterdam</a></div>
+        <div class="footer-copyright ">
+            <div class="left-align black-text" id="techhub">Site Designed & Powered by <a href="https://github.com/silvertechhub/Team_amsterdam">Team Amsterdam</a></div>
             <div class="container right-align black-text">
                 &copy;Team Amsterdam for HNGi7 2020
             </div>

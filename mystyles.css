@@ -1,3 +1,7 @@
+#brand-logo{
+    font-family: Orbitron;
+}
+
 .drawers{
     height: 100%;
     width: 100px;
@@ -10,7 +14,7 @@
 
 }
 
-ul{
+#side_draw{
     list-style: none;
     display:flex ;
     flex-direction: column;
@@ -30,6 +34,26 @@ line-height: 60px;
 
 .text{
     font-weight: bolder;
+}
+
+#image_holder{
+    
+    padding-left: 45%;
+    padding-top: 20px;
+    padding-right: 0;
+    padding-bottom: 100px;
+    height: 100px;
+    width: 150px;
+    border: 2px ;
+    border-radius: 40px;
+    display: ruby-base-container;
+    box-sizing: content-box;
+
+}
+
+#top_search{
+    max-width: 20px;
+    padding-left: 550px;
 }
 
 #mid_row{
@@ -52,8 +76,11 @@ line-height: 60px;
 }
 
 #today{
-    padding-right: 15px;
+    padding-right: 10px;
 }
 #sort{
     padding-right: 35px;
+}
+.sort{
+    text-decoration:none;
 }
