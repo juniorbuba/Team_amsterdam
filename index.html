@@ -7,8 +7,15 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
      <!-- Compiled and minified CSS -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+     <!--------google fonts-->
+     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
       <!--local styles-->
     <link href="mystyles.css" rel="stylesheet" type="text/css">
 
@@ -29,8 +36,21 @@
 
     </div>
     </nav>
+   
+    <nav class=" red hide-on-large-only">
+      
+      <span class="mobile_nav">DashBoard</span> 
+        
+      <span class="mobile_nav" class="active">LeaderBoard</span>   
+      
+      <span class="mobile_nav">Schedule</span>   
+      <span class="mobile_nav">Report</span>   
+      <span class="mobile_nav">Settings </span>   
+      
+    </nav>
+
     <!--------------------sidebar------------------->
-    <div class="drawers">
+    <div class="drawers hide-on-med-and-down">
       <ul class="white-text center" id="side_draw">
         
         <i class="fa fa-tachometer" aria-hidden="true" style="font-size:48px;"></i>
@@ -113,9 +133,28 @@
             </div>
     </section><br><br>
 
+    <!-------------share score-->
+
+    <section class="container">
+      <div >
+       <span id="share_score">  Share your Score with your friends </span>
+      <ul id="score">
+          <li id="tweet"><a href="https://twitter.com/" class="tooltipped btn-floating btn-small blue lighten-1" data-tooltip="This is Twitter">
+            <i class="fab fa-twitter"></i>
+          </a></li>
+          <li id="fb"><a href="https://facebook.com/" class="tooltipped btn-floating btn-small blue darken-2" data-tooltip="This is Facebook">
+          <i class="fab fa-facebook"></i>
+          </a></li>
+          <li id="ig"><a href="https://instagram.com/" class="tooltipped btn-floating btn-small amber lighten-1" data-tooltip="This is Instagram">
+           <i class="fab fa-instagram"></i>
+          </a></li>
+     </ul>
+      </div>
+    </section>
+
     <!------------table--------------->
   <section class="container">
-    <table>
+    <table class="responsive-table striped">
         <thead class="thead">
           <tr class="white-text">
               <th>FullName</th>

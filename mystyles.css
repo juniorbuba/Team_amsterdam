@@ -14,11 +14,26 @@
 
 }
 
+@media screen and (max-width: 670px) {
+    .drawers{
+        display: none;
+    }
+}
+
+.mobile_nav{
+    padding-left: 20px;
+}
+
 #side_draw{
     list-style: none;
     display:flex ;
     flex-direction: column;
     padding-top: 70px;
+}
+
+.active{
+    border-bottom: 5px solid white;
+    background: white;
 }
 #top_winners{
     
@@ -83,4 +98,21 @@ line-height: 60px;
 }
 .sort{
     text-decoration:none;
+}
+
+#score{
+    display: flex;
+    padding-left: 15px;
+}
+
+#fb{
+    padding-left: 15px;
+}
+#ig{
+    padding-left: 15px;
+}
+
+#share_score{
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
 }
