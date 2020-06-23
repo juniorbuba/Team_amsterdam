@@ -1,0 +1,118 @@
+#brand-logo{
+    font-family: Orbitron;
+}
+
+.drawers{
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    background: #8B0101;
+    top: 0px;
+    left: 0px;
+    z-index: 200;
+    box-shadow: 1px 0px 7px rgba(0, 0green, 0blue, 0.5);
+
+}
+
+@media screen and (max-width: 670px) {
+    .drawers{
+        display: none;
+    }
+}
+
+.mobile_nav{
+    padding-left: 20px;
+}
+
+#side_draw{
+    list-style: none;
+    display:flex ;
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+.active{
+    border-bottom: 5px solid white;
+    background: white;
+}
+#top_winners{
+    
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+}
+.thead{
+    background-color: #8B0101;
+}
+
+.text{
+    font-weight: bolder;
+}
+
+#image_holder{
+    
+    padding-left: 45%;
+    padding-top: 20px;
+    padding-right: 0;
+    padding-bottom: 100px;
+    height: 100px;
+    width: 150px;
+    border: 2px ;
+    border-radius: 40px;
+    display: ruby-base-container;
+    box-sizing: content-box;
+
+}
+
+#top_search{
+    max-width: 20px;
+    padding-left: 550px;
+}
+
+#mid_row{
+    list-style: none;
+    display: flex;
+}
+
+#mid_links{
+    padding-top: 100px;
+}
+
+#people{
+    text-decoration: none;
+    border-bottom: 3px solid #8B0101;
+}
+#team{
+    padding-left: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+#today{
+    padding-right: 10px;
+}
+#sort{
+    padding-right: 35px;
+}
+.sort{
+    text-decoration:none;
+}
+
+#score{
+    display: flex;
+    padding-left: 15px;
+}
+
+#fb{
+    padding-left: 15px;
+}
+#ig{
+    padding-left: 15px;
+}
+
+#share_score{
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
