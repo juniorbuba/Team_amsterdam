@@ -3,6 +3,8 @@ const express = require('express');
 const app = express();
 //const list = require('./list.json');
 //const scoreBoard = require('./scoreBoard');
+const webRoutes = require("./routes/web");
+app.use("/", webRoutes);
 
 
 app.set('port', process.env.PORT || 4000);
