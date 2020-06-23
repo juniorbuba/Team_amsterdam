@@ -1,0 +1,33 @@
+[
+	{
+		"full-name": "Buba Mohammed",
+		"Slack_Username": "@Mohammed",
+		"Track": "Backend",
+		"Email": "juniorbuba4real@gmail.com",
+		"points": 2
+	},
+
+	{
+		"full-name": "Mohammed Shuaib",
+		"Slack_Username": "@Shoo_shoo",
+		"Track": "Backend",
+		"Email": "shoo_shoo@gmail.com",
+		"points": 3
+	},
+
+	{
+		"full-name": "Alabi Markaz",
+		"Slack_Username": "@Morkaz",
+		"Track": "Design",
+		"Email": "morkaz_alabi@yahoo.com",
+		"points": 1
+	},
+
+	{
+		"full-name": "Cookie Brown",
+		"Slack_Username": "@cookie",
+		"Track": "Backend",
+		"Email": "cookie@gmail.com",
+		"points": 5
+	}
+]
